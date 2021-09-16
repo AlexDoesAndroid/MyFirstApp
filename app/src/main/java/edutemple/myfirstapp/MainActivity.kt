@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //adds a button that when pressed does a thing
+        //Still trying to add this button correctly
 
         findViewById<Button>(R.id.button)
             .setOnClickListener({v, -> (v as Button).text = "You clicked the button"})
